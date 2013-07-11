@@ -8,16 +8,16 @@
     <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY http "http://www.purl.com/http/2010/10/http.owl#" >
+    <!ENTITY http "https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#" >
 ]>
 
 
-<rdf:RDF xmlns="http://www.purl.com/http/2010/10/http.owl#"
-     xml:base="http://www.purl.com/http/2010/10/http.owl"
+<rdf:RDF xmlns="https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#"
+     xml:base="https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
-     xmlns:http="http://www.purl.com/http/2010/10/http.owl#"
+     xmlns:http="https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -50,7 +50,7 @@
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#WWW-authenticate -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#WWW-authenticate -->
 
     <owl:DatatypeProperty rdf:about="#WWW-authenticate">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -63,7 +63,7 @@
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#accept -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#accept -->
 
     <owl:DatatypeProperty rdf:about="#accept">
         <rdfs:label rdf:datatype="&xsd;string">Accept</rdfs:label>
@@ -134,7 +134,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#accept-charset -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#accept-charset -->
 
     <owl:DatatypeProperty rdf:about="#accept-charset">
         <rdfs:label rdf:datatype="&xsd;string">Accept-Charset</rdfs:label>
@@ -146,7 +146,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#accept-encoding -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#accept-encoding -->
 
     <owl:DatatypeProperty rdf:about="#accept-encoding">
         <rdfs:label rdf:datatype="&xsd;string">Accept-Encoding</rdfs:label>
@@ -158,7 +158,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#accept-language -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#accept-language -->
 
     <owl:DatatypeProperty rdf:about="#accept-language">
         <rdfs:label rdf:datatype="&xsd;string">Accept-Language</rdfs:label>
@@ -170,7 +170,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#accept-ranges -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#accept-ranges -->
 
     <owl:DatatypeProperty rdf:about="#accept-ranges">
         <rdfs:label rdf:datatype="&xsd;string">Accept-Ranges</rdfs:label>
@@ -182,7 +182,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#age -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#age -->
 
     <owl:DatatypeProperty rdf:about="#age">
         <rdfs:label rdf:datatype="&xsd;string">Age</rdfs:label>
@@ -194,7 +194,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#allow -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#allow -->
 
     <owl:DatatypeProperty rdf:about="#allow">
         <rdfs:label rdf:datatype="&xsd;string">Allow</rdfs:label>
@@ -206,7 +206,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#authorization -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#authorization -->
 
     <owl:DatatypeProperty rdf:about="#authorization">
         <rdfs:label rdf:datatype="&xsd;string">Authorization</rdfs:label>
@@ -218,7 +218,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#cache-control -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#cache-control -->
 
     <owl:DatatypeProperty rdf:about="#cache-control">
         <rdfs:label rdf:datatype="&xsd;string">Cache-Control</rdfs:label>
@@ -231,7 +231,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#connection -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#connection -->
 
     <owl:DatatypeProperty rdf:about="#connection">
         <rdfs:label rdf:datatype="&xsd;string">Connection</rdfs:label>
@@ -244,7 +244,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#content-MD5 -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#content-MD5 -->
 
     <owl:DatatypeProperty rdf:about="#content-MD5">
         <rdfs:label rdf:datatype="&xsd;string">Content-MD5</rdfs:label>
@@ -256,7 +256,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#content-encoding -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#content-encoding -->
 
     <owl:DatatypeProperty rdf:about="#content-encoding">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -269,7 +269,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#content-language -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#content-language -->
 
     <owl:DatatypeProperty rdf:about="#content-language">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -282,7 +282,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#content-length -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#content-length -->
 
     <owl:DatatypeProperty rdf:about="#content-length">
         <rdfs:label rdf:datatype="&xsd;string">Content-Length</rdfs:label>
@@ -294,7 +294,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#content-location -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#content-location -->
 
     <owl:DatatypeProperty rdf:about="#content-location">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -307,7 +307,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#content-range -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#content-range -->
 
     <owl:DatatypeProperty rdf:about="#content-range">
         <rdfs:label rdf:datatype="&xsd;string">Content-Range</rdfs:label>
@@ -319,7 +319,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#content-type -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#content-type -->
 
     <owl:DatatypeProperty rdf:about="#content-type">
         <rdfs:label rdf:datatype="&xsd;string">Content-Type</rdfs:label>
@@ -331,7 +331,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#date -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#date -->
 
     <owl:DatatypeProperty rdf:about="#date">
         <rdfs:label rdf:datatype="&xsd;string">Date</rdfs:label>
@@ -344,7 +344,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#entity -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#entity -->
 
     <owl:DatatypeProperty rdf:about="#entity">
         <rdfs:label rdf:datatype="&xsd;string">Entity</rdfs:label>
@@ -353,7 +353,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#etag -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#etag -->
 
     <owl:DatatypeProperty rdf:about="#etag">
         <rdfs:label rdf:datatype="&xsd;string">ETag</rdfs:label>
@@ -365,7 +365,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#expect -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#expect -->
 
     <owl:DatatypeProperty rdf:about="#expect">
         <rdfs:label rdf:datatype="&xsd;string">Expect</rdfs:label>
@@ -377,7 +377,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#expires -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#expires -->
 
     <owl:DatatypeProperty rdf:about="#expires">
         <rdfs:label rdf:datatype="&xsd;string">Expires</rdfs:label>
@@ -389,7 +389,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#from -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#from -->
 
     <owl:DatatypeProperty rdf:about="#from">
         <rdfs:label rdf:datatype="&xsd;string">From</rdfs:label>
@@ -401,13 +401,13 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#header -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#header -->
 
     <owl:DatatypeProperty rdf:about="#header"/>
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#host -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#host -->
 
     <owl:DatatypeProperty rdf:about="#host">
         <rdfs:label rdf:datatype="&xsd;string">Host</rdfs:label>
@@ -417,9 +417,18 @@ would cause the following values to be associated:
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#hostname -->
 
+    <owl:DatatypeProperty rdf:about="#hostname">
+        <rdfs:label rdf:datatype="&xsd;string">Hostname</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string"
+            >Specifies the Internet host of the resource being requested. This is derived from #host.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="#request"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#if-match -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#if-match -->
 
     <owl:DatatypeProperty rdf:about="#if-match">
         <rdfs:label rdf:datatype="&xsd;string">If-Match</rdfs:label>
@@ -431,7 +440,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#if-modified-since -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#if-modified-since -->
 
     <owl:DatatypeProperty rdf:about="#if-modified-since">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -444,7 +453,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#if-none-match -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#if-none-match -->
 
     <owl:DatatypeProperty rdf:about="#if-none-match">
         <rdfs:label rdf:datatype="&xsd;string">If-None-Match</rdfs:label>
@@ -456,7 +465,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#if-range -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#if-range -->
 
     <owl:DatatypeProperty rdf:about="#if-range">
         <rdfs:label rdf:datatype="&xsd;string">If-Range</rdfs:label>
@@ -468,7 +477,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#if-unmodified-since -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#if-unmodified-since -->
 
     <owl:DatatypeProperty rdf:about="#if-unmodified-since">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -481,7 +490,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#last-modified -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#last-modified -->
 
     <owl:DatatypeProperty rdf:about="#last-modified">
         <rdfs:label rdf:datatype="&xsd;string">Last-Modified</rdfs:label>
@@ -493,7 +502,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#location -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#location -->
 
     <owl:DatatypeProperty rdf:about="#location">
         <rdfs:label rdf:datatype="&xsd;string">Location</rdfs:label>
@@ -505,7 +514,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#max-forwards -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#max-forwards -->
 
     <owl:DatatypeProperty rdf:about="#max-forwards">
         <rdfs:label rdf:datatype="&xsd;string">Max-Forwards</rdfs:label>
@@ -517,7 +526,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#pragma -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#pragma -->
 
     <owl:DatatypeProperty rdf:about="#pragma">
         <rdfs:label rdf:datatype="&xsd;string">Pragma</rdfs:label>
@@ -528,7 +537,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#proxy-authenticate -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#proxy-authenticate -->
 
     <owl:DatatypeProperty rdf:about="#proxy-authenticate">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -541,7 +550,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#proxy-authorization -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#proxy-authorization -->
 
     <owl:DatatypeProperty rdf:about="#proxy-authorization">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -554,7 +563,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#range -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#range -->
 
     <owl:DatatypeProperty rdf:about="#range">
         <rdfs:label rdf:datatype="&xsd;string">Range</rdfs:label>
@@ -566,7 +575,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#referer -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#referer -->
 
     <owl:DatatypeProperty rdf:about="#referer">
         <rdfs:label rdf:datatype="&xsd;string">Referer</rdfs:label>
@@ -578,7 +587,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#request -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#request -->
 
     <owl:DatatypeProperty rdf:about="#request">
         <rdfs:label rdf:datatype="&xsd;string">Request</rdfs:label>
@@ -596,7 +605,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#response -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#response -->
 
     <owl:DatatypeProperty rdf:about="#response">
         <rdfs:label rdf:datatype="&xsd;string">Response</rdfs:label>
@@ -605,7 +614,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#retry-after -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#retry-after -->
 
     <owl:DatatypeProperty rdf:about="#retry-after">
         <rdfs:label rdf:datatype="&xsd;string">Retry-After</rdfs:label>
@@ -617,7 +626,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#server -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#server -->
 
     <owl:DatatypeProperty rdf:about="#server">
         <rdfs:label rdf:datatype="&xsd;string">Server</rdfs:label>
@@ -629,7 +638,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#te -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#te -->
 
     <owl:DatatypeProperty rdf:about="#te">
         <rdfs:label rdf:datatype="&xsd;string">TE</rdfs:label>
@@ -641,7 +650,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#trailer -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#trailer -->
 
     <owl:DatatypeProperty rdf:about="#trailer">
         <rdfs:label rdf:datatype="&xsd;string">Trailer</rdfs:label>
@@ -654,7 +663,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#transfer-encoding -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#transfer-encoding -->
 
     <owl:DatatypeProperty rdf:about="#transfer-encoding">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -668,7 +677,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#upgrade -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#upgrade -->
 
     <owl:DatatypeProperty rdf:about="#upgrade">
         <rdfs:label rdf:datatype="&xsd;string">Upgrade</rdfs:label>
@@ -681,7 +690,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#user-agent -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#user-agent -->
 
     <owl:DatatypeProperty rdf:about="#user-agent">
         <rdfs:label rdf:datatype="&xsd;string">User-Agent</rdfs:label>
@@ -693,7 +702,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#vary -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#vary -->
 
     <owl:DatatypeProperty rdf:about="#vary">
         <rdfs:label rdf:datatype="&xsd;string">Vary</rdfs:label>
@@ -705,7 +714,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#via -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#via -->
 
     <owl:DatatypeProperty rdf:about="#via">
         <rdfs:label rdf:datatype="&xsd;string">Via</rdfs:label>
@@ -718,7 +727,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#warning -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#warning -->
 
     <owl:DatatypeProperty rdf:about="#warning">
         <rdfs:label rdf:datatype="&xsd;string">Warning</rdfs:label>
@@ -742,7 +751,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Accepted -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Accepted -->
 
     <owl:Class rdf:about="#Accepted">
         <rdfs:label rdf:datatype="&xsd;string">Accepted</rdfs:label>
@@ -756,7 +765,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Bad_Gateway -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Bad_Gateway -->
 
     <owl:Class rdf:about="#Bad_Gateway">
         <rdfs:label rdf:datatype="&xsd;string">Bad_Gateway</rdfs:label>
@@ -768,7 +777,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Bad_Request -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Bad_Request -->
 
     <owl:Class rdf:about="#Bad_Request">
         <rdfs:label rdf:datatype="&xsd;string">400 Bad Request</rdfs:label>
@@ -780,7 +789,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#CONNECT -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#CONNECT -->
 
     <owl:Class rdf:about="#CONNECT">
         <rdfs:label rdf:datatype="&xsd;string">CONNECT</rdfs:label>
@@ -791,7 +800,7 @@ would cause the following values to be associated:
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Client_Error -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Client_Error -->
 
     <owl:Class rdf:about="#Client_Error">
         <rdfs:label rdf:datatype="&xsd;string">Client_Error</rdfs:label>
@@ -804,7 +813,7 @@ If the client is sending data, a server implementation using TCP SHOULD be caref
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Conflict -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Conflict -->
 
     <owl:Class rdf:about="#Conflict">
         <rdfs:label rdf:datatype="&xsd;string">409 Conflict</rdfs:label>
@@ -817,7 +826,7 @@ If the client is sending data, a server implementation using TCP SHOULD be caref
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Continue -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Continue -->
 
     <owl:Class rdf:about="#Continue">
         <rdfs:label rdf:datatype="&xsd;string">100 Continue</rdfs:label>
@@ -829,7 +838,7 @@ If the client is sending data, a server implementation using TCP SHOULD be caref
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Created -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Created -->
 
     <owl:Class rdf:about="#Created">
         <rdfs:label rdf:datatype="&xsd;string">201 Created</rdfs:label>
@@ -843,7 +852,7 @@ If the client is sending data, a server implementation using TCP SHOULD be caref
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#DELETE -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#DELETE -->
 
     <owl:Class rdf:about="#DELETE">
         <rdfs:label rdf:datatype="&xsd;string">DELETE</rdfs:label>
@@ -858,7 +867,7 @@ If the request passes through a cache and the Request-URI identifies one or more
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Entity -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Entity -->
 
     <owl:Class rdf:about="#Entity">
         <rdfs:subClassOf rdf:resource="#Header"/>
@@ -868,7 +877,7 @@ If the request passes through a cache and the Request-URI identifies one or more
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Expectation_Failed -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Expectation_Failed -->
 
     <owl:Class rdf:about="#Expectation_Failed">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -881,7 +890,7 @@ If the request passes through a cache and the Request-URI identifies one or more
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Forbidden -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Forbidden -->
 
     <owl:Class rdf:about="#Forbidden">
         <rdfs:label rdf:datatype="&xsd;string">403 Forbidden</rdfs:label>
@@ -893,7 +902,7 @@ If the request passes through a cache and the Request-URI identifies one or more
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Found -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Found -->
 
     <owl:Class rdf:about="#Found">
         <rdfs:label rdf:datatype="&xsd;string">302 Found</rdfs:label>
@@ -914,7 +923,7 @@ If the request passes through a cache and the Request-URI identifies one or more
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#GET -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#GET -->
 
     <owl:Class rdf:about="#GET">
         <rdfs:label rdf:datatype="&xsd;string">GET</rdfs:label>
@@ -934,7 +943,7 @@ See section 15.1.3 for security considerations when used for forms.</rdfs:commen
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Gateway_Timeout -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Gateway_Timeout -->
 
     <owl:Class rdf:about="#Gateway_Timeout">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -950,7 +959,7 @@ See section 15.1.3 for security considerations when used for forms.</rdfs:commen
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#General -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#General -->
 
     <owl:Class rdf:about="#General">
         <rdfs:subClassOf rdf:resource="#Header"/>
@@ -960,7 +969,7 @@ See section 15.1.3 for security considerations when used for forms.</rdfs:commen
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Gone -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Gone -->
 
     <owl:Class rdf:about="#Gone">
         <rdfs:label rdf:datatype="&xsd;string">410 Gone</rdfs:label>
@@ -973,7 +982,7 @@ The 410 response is primarily intended to assist the task of web maintenance by 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#HEAD -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#HEAD -->
 
     <owl:Class rdf:about="#HEAD">
         <rdfs:label rdf:datatype="&xsd;string">HEAD</rdfs:label>
@@ -987,7 +996,7 @@ The response to a HEAD request MAY be cacheable in the sense that the informatio
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#HTTP_Version_Not_Supported -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#HTTP_Version_Not_Supported -->
 
     <owl:Class rdf:about="#HTTP_Version_Not_Supported">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1000,13 +1009,13 @@ The response to a HEAD request MAY be cacheable in the sense that the informatio
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Header -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Header -->
 
     <owl:Class rdf:about="#Header"/>
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Idempotent_Methods -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Idempotent_Methods -->
 
     <owl:Class rdf:about="#Idempotent_Methods">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1022,7 +1031,7 @@ A sequence that never has side effects is idempotent, by definition (provided th
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Informational_Status_Code -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Informational_Status_Code -->
 
     <owl:Class rdf:about="#Informational_Status_Code">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1038,7 +1047,7 @@ Proxies MUST forward 1xx responses, unless the connection between the proxy and 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Internal_Server_Error -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Internal_Server_Error -->
 
     <owl:Class rdf:about="#Internal_Server_Error">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1051,7 +1060,7 @@ Proxies MUST forward 1xx responses, unless the connection between the proxy and 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Length_Required -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Length_Required -->
 
     <owl:Class rdf:about="#Length_Required">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1064,7 +1073,7 @@ Proxies MUST forward 1xx responses, unless the connection between the proxy and 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Method_Not_Allowed -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Method_Not_Allowed -->
 
     <owl:Class rdf:about="#Method_Not_Allowed">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1077,13 +1086,13 @@ Proxies MUST forward 1xx responses, unless the connection between the proxy and 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Methods -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Methods -->
 
     <owl:Class rdf:about="#Methods"/>
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Moved_Permanently -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Moved_Permanently -->
 
     <owl:Class rdf:about="#Moved_Permanently">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1101,7 +1110,7 @@ Proxies MUST forward 1xx responses, unless the connection between the proxy and 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Multiple_Choices -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Multiple_Choices -->
 
     <owl:Class rdf:about="#Multiple_Choices">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1116,7 +1125,7 @@ Proxies MUST forward 1xx responses, unless the connection between the proxy and 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#No_Content -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#No_Content -->
 
     <owl:Class rdf:about="#No_Content">
         <rdfs:label rdf:datatype="&xsd;string">204 No Content</rdfs:label>
@@ -1132,7 +1141,7 @@ Proxies MUST forward 1xx responses, unless the connection between the proxy and 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Non-Authoritative_Information -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Non-Authoritative_Information -->
 
     <owl:Class rdf:about="#Non-Authoritative_Information">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1145,7 +1154,7 @@ Proxies MUST forward 1xx responses, unless the connection between the proxy and 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Not_Acceptable -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Not_Acceptable -->
 
     <owl:Class rdf:about="#Not_Acceptable">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1166,7 +1175,7 @@ Proxies MUST forward 1xx responses, unless the connection between the proxy and 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Not_Found -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Not_Found -->
 
     <owl:Class rdf:about="#Not_Found">
         <rdfs:label rdf:datatype="&xsd;string">404 Not Found</rdfs:label>
@@ -1178,7 +1187,7 @@ Proxies MUST forward 1xx responses, unless the connection between the proxy and 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Not_Implemented -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Not_Implemented -->
 
     <owl:Class rdf:about="#Not_Implemented">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1191,7 +1200,7 @@ Proxies MUST forward 1xx responses, unless the connection between the proxy and 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Not_Modified -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Not_Modified -->
 
     <owl:Class rdf:about="#Not_Modified">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1218,7 +1227,7 @@ Proxies MUST forward 1xx responses, unless the connection between the proxy and 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#OK -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#OK -->
 
     <owl:Class rdf:about="#OK">
         <rdfs:label rdf:datatype="&xsd;string">200 OK</rdfs:label>
@@ -1238,7 +1247,7 @@ TRACE an entity containing the request message as received by the end server.</r
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#OPTIONS -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#OPTIONS -->
 
     <owl:Class rdf:about="#OPTIONS">
         <rdfs:label rdf:datatype="&xsd;string">OPTIONS</rdfs:label>
@@ -1261,7 +1270,7 @@ The Max-Forwards request-header field MAY be used to target a specific proxy in 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#POST -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#POST -->
 
     <owl:Class rdf:about="#POST">
         <rdfs:label rdf:datatype="&xsd;string">POST</rdfs:label>
@@ -1288,7 +1297,7 @@ POST requests MUST obey the message transmission requirements set out in section
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#PUT -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#PUT -->
 
     <owl:Class rdf:about="#PUT">
         <rdfs:label rdf:datatype="&xsd;string">PUT</rdfs:label>
@@ -1311,7 +1320,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Partial_Content -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Partial_Content -->
 
     <owl:Class rdf:about="#Partial_Content">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1344,7 +1353,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Payment_Required -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Payment_Required -->
 
     <owl:Class rdf:about="#Payment_Required">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1357,7 +1366,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Pragma -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Pragma -->
 
     <owl:Class rdf:about="#Pragma">
         <rdfs:label rdf:datatype="&xsd;string">Pragma</rdfs:label>
@@ -1367,7 +1376,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Precondition_Failed -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Precondition_Failed -->
 
     <owl:Class rdf:about="#Precondition_Failed">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1380,7 +1389,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Proxy_Authentication_Required -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Proxy_Authentication_Required -->
 
     <owl:Class rdf:about="#Proxy_Authentication_Required">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1393,7 +1402,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Redirection_Status_Code -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Redirection_Status_Code -->
 
     <owl:Class rdf:about="#Redirection_Status_Code">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1410,7 +1419,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Request -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Request -->
 
     <owl:Class rdf:about="#Request">
         <rdfs:subClassOf rdf:resource="#Header"/>
@@ -1420,7 +1429,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Request-URI_Too_Long -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Request-URI_Too_Long -->
 
     <owl:Class rdf:about="#Request-URI_Too_Long">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1433,7 +1442,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Request_Entity_Too_Large -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Request_Entity_Too_Large -->
 
     <owl:Class rdf:about="#Request_Entity_Too_Large">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1447,7 +1456,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Request_Timeout -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Request_Timeout -->
 
     <owl:Class rdf:about="#Request_Timeout">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1460,7 +1469,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Requested_Range_Not_Satisfiable -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Requested_Range_Not_Satisfiable -->
 
     <owl:Class rdf:about="#Requested_Range_Not_Satisfiable">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1474,7 +1483,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Reset_Content -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Reset_Content -->
 
     <owl:Class rdf:about="#Reset_Content">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1487,7 +1496,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Response -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Response -->
 
     <owl:Class rdf:about="#Response">
         <rdfs:subClassOf rdf:resource="#Header"/>
@@ -1497,7 +1506,7 @@ Unless otherwise specified for a particular entity-header, the entity-headers in
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Safe_Methods -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Safe_Methods -->
 
     <owl:Class rdf:about="#Safe_Methods">
         <rdfs:label rdf:datatype="&xsd;string">Safe Methods</rdfs:label>
@@ -1512,7 +1521,7 @@ Naturally, it is not possible to ensure that the server does not generate side-e
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#See_Other -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#See_Other -->
 
     <owl:Class rdf:about="#See_Other">
         <rdfs:label rdf:datatype="&xsd;string">303 See Other</rdfs:label>
@@ -1529,7 +1538,7 @@ Naturally, it is not possible to ensure that the server does not generate side-e
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Service_Unavailable -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Service_Unavailable -->
 
     <owl:Class rdf:about="#Service_Unavailable">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1546,7 +1555,7 @@ Naturally, it is not possible to ensure that the server does not generate side-e
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Status_Code -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Status_Code -->
 
     <owl:Class rdf:about="#Status_Code">
         <rdfs:label rdf:datatype="&xsd;string">Status Code</rdfs:label>
@@ -1556,7 +1565,7 @@ Naturally, it is not possible to ensure that the server does not generate side-e
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Successful_Status_Code -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Successful_Status_Code -->
 
     <owl:Class rdf:about="#Successful_Status_Code">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1568,7 +1577,7 @@ Naturally, it is not possible to ensure that the server does not generate side-e
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Switching_Protocols -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Switching_Protocols -->
 
     <owl:Class rdf:about="#Switching_Protocols">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1583,7 +1592,7 @@ The protocol SHOULD be switched only when it is advantageous to do so. For examp
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#TRACE -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#TRACE -->
 
     <owl:Class rdf:about="#TRACE">
         <rdfs:label rdf:datatype="&xsd;string">TRACE</rdfs:label>
@@ -1598,7 +1607,7 @@ If the request is valid, the response SHOULD contain the entire request message 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Temporary_Redirect -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Temporary_Redirect -->
 
     <owl:Class rdf:about="#Temporary_Redirect">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1613,7 +1622,7 @@ If the request is valid, the response SHOULD contain the entire request message 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Unauthorized -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Unauthorized -->
 
     <owl:Class rdf:about="#Unauthorized">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1626,7 +1635,7 @@ If the request is valid, the response SHOULD contain the entire request message 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Unsupported_Media_Type -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Unsupported_Media_Type -->
 
     <owl:Class rdf:about="#Unsupported_Media_Type">
         <rdfs:label rdf:datatype="&xsd;string"
@@ -1639,7 +1648,7 @@ If the request is valid, the response SHOULD contain the entire request message 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Unused -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Unused -->
 
     <owl:Class rdf:about="#Unused">
         <rdfs:label rdf:datatype="&xsd;string">306 Unused</rdfs:label>
@@ -1651,7 +1660,7 @@ If the request is valid, the response SHOULD contain the entire request message 
     
 
 
-    <!-- http://www.purl.com/http/2010/10/http.owl#Use_Proxy -->
+    <!-- https://raw.github.com/mswimmer/HTTP-Ontology/master/http.owl#Use_Proxy -->
 
     <owl:Class rdf:about="#Use_Proxy">
         <rdfs:label rdf:datatype="&xsd;string">305 Use Proxy</rdfs:label>
